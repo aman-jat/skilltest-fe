@@ -1,0 +1,31 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-component {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+
+.input-component label {
+  min-width: 100px;
+  text-align: left;
+}
+
+.input-component label {
+  margin-top: 0px !important;
+}
+
+.input-component div {
+  text-align: start;
+}
+
+.input-component div input {
+  margin-bottom: 4px;
+}
